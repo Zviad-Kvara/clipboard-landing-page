@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  font-family: "Bai Jamjuree";
+  background-size: contain;
+  overflow-x: hidden;
+}
+header {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-icon {
+  margin-top: 123px;
+}
+
+.copy-history-txt {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.521739px;
+  color: #4c545c;
+  margin-top: 64px;
+}
+.clipboard-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 16px;
+}
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ios-download-btn {
+  font-family: "Bai Jamjuree";
+  height: 56px;
+  width: 311px;
+  border-radius: 28px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: 48px;
+  border: none;
+}
+.mac-download-btn {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  height: 56px;
+  width: 311px;
+  border-radius: 28px;
+  border: none;
+  margin-top: 24px;
+}
+
+.track-snippest-txt {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+  margin-top: 160px;
+}
+.clipboard-app-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 16px;
+}
+main {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile-computer-img {
+  margin-top: 65px;
+}
+.desktop-pc-img {
+  display: none;
+}
+.pc-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quick-search-txt {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-top: 56px;
+}
+.quick-search-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 10px;
+}
+.icloud-txt {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-top: 48px;
+}
+.icloud-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 10px;
+}
+.history-txt {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-top: 48px;
+}
+.history-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 10px;
+}
+.access-anywhere-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.access-anywhere-txt {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+  margin-top: 186px;
+}
+.access-anywhere-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 16px;
+}
+.devices-img {
+  height: 182px;
+  width: 311px;
+  margin-top: 64px;
+  margin-bottom: 130px;
+}
+.desktop-devices-img {
+  display: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 32px;
+}
+.supercharge-txt {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+}
+.supercharge-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 11px;
+}
+.card-container-div {
+  margin-top: 30px;
+  margin-bottom: 131px;
+}
+.card-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  margin-top: 60px;
+}
+.card-txt {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-top: 40px;
+}
+.card-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 17px;
+  text-align: center;
+}
+.logos-div {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+
+.ios-mac-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  font-family: "Bai Jamjuree";
+}
+
+.ios-mac-txt {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+}
+.ios-mac-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-top: 16px;
+}
+.second-buttons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 500px;
+  width: 100vw;
+  margin-top: 170px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+  background-image: linear-gradient(
+    rgba(158, 171, 178, 0.1),
+    rgba(158, 171, 178, 0.1)
+  );
+}
+.second-logo-img {
+  height: 55px;
+  width: 55px;
+  margin-top: 52px;
+}
+.faq-contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.privacy-kit-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.faq-txt {
+  margin-top: 25px;
+}
+
+.icons-div {
+  display: flex;
+  gap: 40px;
+  margin-top: 48px;
+}
+
+/* ---------------------------------Desktop Version------------------------- */
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("./images/bg-header-desktop.png");
+  }
+  header {
+  }
+  .logo-icon {
+    margin-top: 138px;
+  }
+  .copy-history-div {
+    font-size: 46px;
+    letter-spacing: -0.75px;
+  }
+  .copy-history-txt {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -0.521739px;
+    margin-top: 64px;
+  }
+  .clipboard-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    max-width: 730px;
+  }
+  .buttons-div {
+    flex-direction: row;
+    gap: 16px;
+  }
+  .ios-download-btn {
+    width: 227px;
+  }
+  .ios-download-btn:hover {
+    background: linear-gradient(
+      rgba(38, 187, 164, 0.5),
+      rgba(38, 187, 164, 0.5)
+    );
+    cursor: pointer;
+  }
+  .mac-download-btn {
+    margin-top: 48px;
+    width: 227px;
+  }
+  .mac-download-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      rgba(97, 116, 255, 0.5),
+      rgba(97, 116, 255, 0.5)
+    );
+  }
+
+  .track-snippest-txt {
+    font-size: 36px;
+    letter-spacing: -0.586957px;
+    margin-top: 150px;
+  }
+  .clipboard-app-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-top: 19px;
+    max-width: 730px;
+  }
+  main {
+    padding: 0;
+  }
+  .main-div {
+    display: flex;
+    gap: 110px;
+    max-width: 100vw;
+    flex-direction: row;
+  }
+  .pc-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-computer-img {
+    display: none;
+  }
+  .desktop-pc-img {
+    display: block;
+    margin-top: 80px;
+  }
+  .quick-search-txt {
+    margin-top: 148px;
+  }
+  .quick-search-paragraph {
+    line-height: 30px;
+    margin-top: 8px;
+    max-width: 350px;
+  }
+  .icloud-txt {
+    margin-top: 56px;
+  }
+  .icloud-paragraph {
+    line-height: 30px;
+    margin-top: 8px;
+    max-width: 350px;
+  }
+  .history-txt {
+    margin-top: 56px;
+  }
+  .history-paragraph {
+    line-height: 30px;
+    margin-top: 8px;
+    max-width: 350px;
+  }
+
+  .access-anywhere-txt {
+    font-size: 36px;
+    letter-spacing: -0.586957px;
+    margin-top: 150px;
+  }
+  .access-anywhere-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-top: 19px;
+    max-width: 730px;
+  }
+  .desktop-devices-img {
+    display: block;
+    margin-top: 111px;
+    margin-bottom: 161px;
+  }
+  .devices-img {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+  }
+  .supercharge-txt {
+    font-size: 36px;
+    letter-spacing: -0.586957px;
+  }
+  .supercharge-paragraph {
+    font-size: 18px;
+    letter-spacing: 0.135px;
+    margin-top: 19px;
+  }
+  .card-container-div {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 160px;
+    gap: 30px;
+  }
+
+  .card-paragraph {
+    line-height: 30px;
+    margin-top: 16px;
+    width: 350px;
+  }
+  .logos-div {
+    flex-direction: row;
+    gap: 90px;
+  }
+  .ios-mac-div {
+    flex-direction: column;
+    margin-top: 161px;
+    font-family: "Bai Jamjuree";
+  }
+
+  .ios-mac-txt {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.586957px;
+  }
+  .ios-mac-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-top: 19px;
+    max-width: 730px;
+  }
+  .second-buttons-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+    width: 100vw;
+    margin-top: 150px;
+  }
+  .second-logo-img {
+    margin: 44px 0 51px 165px;
+  }
+  .faq-contact-div {
+    align-items: baseline;
+    margin-left: 140px;
+    margin-bottom: 39px;
+    gap: 12px;
+  }
+  .privacy-kit-div {
+    align-items: baseline;
+    margin-left: 30px;
+    margin-bottom: 18px;
+    gap: 12px;
+  }
+  .faq-txt {
+    margin-top: 25px;
+  }
+  .contact-txt:hover {
+    color: #26bba4;
+    cursor: pointer;
+  }
+
+  .install-txt {
+    margin-left: 30px;
+    margin-bottom: 51px;
+  }
+  .icons-div {
+    gap: 24px;
+    margin-bottom: 63px;
+    margin-left: 260px;
+  }
+
+  .twitter-icon:hover {
+    filter: invert(56%) sepia(97%) saturate(284%) hue-rotate(121deg)
+      brightness(88%) contrast(109%);
+    cursor: pointer;
+  }
+}
